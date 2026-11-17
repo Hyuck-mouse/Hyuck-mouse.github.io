@@ -1,4 +1,8 @@
-/* 暗色模式下减弱背景遮罩，让背景图更清晰 */
+/* 暗色模式下减弱全站背景遮罩，让背景图更清晰 */
 html[data-theme='dark'] #web_bg:before {
   background-color: rgba(0, 0, 0, 0.45) !important;
+}
+/* 首页首屏 banner：用柔和浅色遮罩淡化色调，不影响标题文字 */
+#page-header.full_page:before {
+  background-color: rgba(255, 255, 255, 0.12) !important;
 }

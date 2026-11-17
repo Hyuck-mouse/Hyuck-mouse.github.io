@@ -1,0 +1,4 @@
+/* 暗色模式下减弱背景遮罩，让背景图更清晰 */
+html[data-theme='dark'] #web_bg:before {
+  background-color: rgba(0, 0, 0, 0.45) !important;
+}
